@@ -68,17 +68,6 @@
 newDocReceived
 </h3>
 </p>
-
-<form action='Serv3'>
-<input type='submit' class='submitbuttoninner' value='Generate new Doc Id'></input>
-<br>
-</form>
-
-<p class='loginword'>
-<h3>
-OR
-</h3>
-</p>
 <form action='Serv1'>
 <input type='number' name='docid' required autofoucs placeholder='Enter Doc Id'></input><br>
 <select name='fromdept'>
@@ -122,16 +111,6 @@ sendADoc
 </h3>
 </p>
 
-<form action='Serv3'>
-<input type='submit' class='submitbuttoninner' value='Generate new Doc Id'></input>
-<br>
-</form>
-
-<p class='loginword'>
-<h3>
-OR
-</h3>
-</p>
 
 
 <form action='Serv2'>
@@ -176,13 +155,26 @@ OR
 
 
 <div class='loginform form-control'>
+<br>
+<form action='Serv3'>
+<input type='submit' class='submitbuttoninner' value='Generate new Doc Id'></input>
+<br>
+</form>
+<br>
+<p class='loginword'>
+<h3>
+OR</h3>
+</p><br>
+
+
+
 
 <p class='loginword'>
 <h3>
 trackADoc
 </h3>
 </p>
-<br><br><br>
+
 
 <form action='trackdoc.jsp' method='post'>
 <input type='number' name='docid' placeholder='Enter docID' required></input>
